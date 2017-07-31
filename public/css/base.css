@@ -1,0 +1,100 @@
+/* RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    vertical-align:baseline;
+}
+
+:focus , :hover{
+    outline: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: Regular, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+span{
+    display: block;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+a {
+    color: rgba(15, 115, 238, 1.0);
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+
+input{
+    box-shadow: none !important;
+    border: 0px !important;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    background-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.modal {
+    z-index: 999999999999999999999 !important;
+}
+
+.modal-open{
+    overflow: hidden !important;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh; 
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    -webkit-box-align : center;
+    -webkit-align-items : center;
+    -moz-box-align : center;
+    -ms-flex-align : center;
+    align-items : center;
+    width: 100%;
+    -webkit-box-pack : center;
+    -moz-box-pack : center;
+    -ms-flex-pack : center;
+    -webkit-justify-content : center;
+    justify-content : center;
+    margin-bottom: 0px;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: none !important;
+}
+
+.error{
+    color: #F91818 !important;
+    font-weight: normal;
+    display: block;
+    font-family: Zilla;
+    font-size: 22px;
+}
