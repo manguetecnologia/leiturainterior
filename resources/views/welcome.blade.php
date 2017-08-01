@@ -72,34 +72,85 @@
 
 	        <body>
 
-	        	<div class="topo" id="topo">
+
+<header>
+   <div class="topo" id="topo">
+      <div class="container">
+         <div class="logo">
+            <!-- só se usa quando quer dividir algo então não é preciso use uma ancora em vez falta a classe img responsive na logo -->
+            <!-- <div class="col-md-4"> -->
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcST1o6gfe7mL9whE6K1cqpn-UufYazZso_pUCpgidRK3AX0XLzQEIv3AFk" class="img-responsive">
+            <!-- </div> -->
+         </div>
+         <div class="opcao_menu">
+            <nav>
+               <ul>
+                  <li><a href="#topo">Início</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#contato">Contato</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+</header>
 
 
-	        		<div class="container">
+	        	<!--header>
+   
 
-	        			<div class="logo">
-	        				<div class="col-md-4">
-	        					
-	        					<img src="{{ asset('img/logo.png') }}
+   <div class="topo" id="topo">
+   <div class="container">
+      <div class="logo img-responsive">
+      
+            <img src="{{ asset('img/logo.png') }}
+              ">
+       
+      </div>
+      <div class="opcao_menu">
+         <nav>
+            <ul>
+               <li><a href="#topo">Início</a></li>
+               <li><a href="#sobre">Sobre</a></li>
+               <li><a href="#servicos">Serviços</a></li>
+               <li><a href="#contato">Contato</a></li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+</header-->
+
+	       <!--header>
+               
+                <div class="topo" id="topo">
+ 
+ 
+                    <div class="container">
+ 
+                        <div class="logo img-responsive">
+                            <div class="col-md-4">
+                               
+                                <img src="{{ asset('img/logo.png') }}
 ">
-
-	        				</div>
-	        			</div>
-
-	        			<div class="menu">
-	        				<nav>
-	        				<ul>
-	        					<li><a href="#topo">Início</a></li>
-	        					<li><a href="#sobre">Sobre</a></li>
-	        					<li><a href="#servicos">Serviços</a></li>
-	        					<li><a href="#contato">Contato</a></div></li>
-	        				</ul>
-	        				</nav>
-	        			</div>
-
-
-
-	        		</div>
+ 
+                            </div>
+                        </div>
+ 
+                        <div class="opcao_menu">
+                            <nav>
+                            <ul>
+                                <li><a href="#topo">Início</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#servicos">Serviços</a></li>
+                                <li><a href="#contato">Contato</a></li>
+                            </ul>
+                            </nav>
+                        </div>
+ 
+ 
+ 
+                    </div>
+                    </header-->
 
 
 
@@ -107,15 +158,15 @@
 	                   <!--a href="#home">Home</a>
 	                    <a href="#news">News</a>
 	                    <a href="#contact">Contact</a-->
-	                    	<div class="row">
+	                    
 	                            <!--div class="col-md-4">.col-md-4 - logo</div>
 	                            <div class="col-md-2">Início</div></div>
 	                            <div class="col-md-2">Sobre</div>
 	                            <div class="col-md-2">Serviços</div>
 	                            <div class="col-md-2">Contato</div-->
-	                            </div>
+	                           
 
-	                        </div>
+	                       
 
 
 

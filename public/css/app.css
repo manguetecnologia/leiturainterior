@@ -1,114 +1,160 @@
-/*html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+}
 
-            .full-height {
-                height: 100vh;
-            }
+/* Optional theme */
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+/* RESET */
 
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            } */
-
-    @import url("fonts.css");
-
-    @import url("base.css");
-
-    .topo {
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    vertical-align: baseline;
+}
+:focus,
+:hover {
+    outline: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: Regular, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+span {
+    display: block;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+blockquote,
+q {
+    quotes: "" "";
+}
+a {
+    color: rgba(15, 115, 238, 1.0);
+}
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+input {
+    box-shadow: none !important;
+    border: 0px !important;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    background-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.modal {
+    z-index: 999999999999999999999 !important;
+}
+.modal-open {
+    overflow: hidden !important;
+}
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: none !important;
+}
+.error {
+    color: #F91818 !important;
+    font-weight: normal;
+    display: block;
+    font-family: Zilla;
+    font-size: 22px;
+}
+.topo {
     height: 82px;
     width: 100%;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
-    }
-
-    .topo a{
-
-
+}
+.topo a {
     height: 21px;
     width: 139px;
-    color: rgba(135,145,161,0.65);
+    color: rgba(135, 145, 161, 0.65);
     font-family: "Yanone Kaffeesatz";
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
     text-align: center;
-    padding: 
+    padding:
+}
+.logo {
+    float: left;
+}
 
-    }
+// vc deve definir nesse caso
+.logo img{
+  width: 100px;
+}
 
-    .logo{
+header {
+    display: inline;
+}
 
-        float: left;
-    }
-
-    /*.opcao_menu {
-    height: 21px;
-    width: 139px;
-    color: rgba(135,145,161,0.65);
+// tira o height // tira o width //
+.opcao_menu {
+    color: rgba(135, 145, 161, 0.65);
     font-family: "Yanone Kaffeesatz";
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
     text-align: center;
-    }*/
-
-    
-
-    .menu_item_hover {
+    float: right;
+}
+.menu_item_hover {
     height: 44px;
     width: 139px;
     border-radius: 5px;
-    background-color: rgba(135,145,161,0.65);
-    }
-
-    .banner {
+    background-color: rgba(135, 145, 161, 0.65);
+}
+.banner {
     height: 676px;
     width: 100%;
     border: 1px solid #979797;
     background-color: #30579A;
-    }
-
-    .titulo_banner {
+}
+.titulo_banner {
     height: 204px;
     width: 894px;
     color: #FFFFFF;
@@ -117,8 +163,7 @@
     font-weight: 800;
     line-height: 102px;
 }
-
-    .texto_banner {
+.texto_banner {
     height: 42px;
     width: 982px;
     color: #FFFFFF;
@@ -128,15 +173,13 @@
     font-weight: 200;
     line-height: 42px;
 }
-
-    .sobre {
+.sobre {
     height: 868px;
     width: 100%;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
-    }
-
-    .sobre_titulo {
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+}
+.sobre_titulo {
     height: 85px;
     width: 218px;
     color: #30579A;
@@ -146,8 +189,7 @@
     letter-spacing: 2px;
     line-height: 85px;
 }
-
-    .sobre_texto {
+.sobre_texto {
     height: 384px;
     width: 545px;
     color: #353D4B;
@@ -156,22 +198,18 @@
     font-weight: 300;
     line-height: 24px;
 }
-
-
-    .servicos {
+.servicos {
     height: 925px;
     width: 100%;
-    background-color: rgba(135,145,161,0.2);
+    background-color: rgba(135, 145, 161, 0.2);
 }
-
 .servicos_folder {
     height: 333px;
     width: 545px;
     border-radius: 5px;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
 }
-
 .servicos_texto {
     height: 84px;
     width: 446px;
@@ -183,19 +221,16 @@
     line-height: 42px;
     text-align: center;
 }
-
-    .clientes {
+.clientes {
     height: 868px;
     width: 100%px;
     background-color: #FFFFFF;
 }
-
-    .contato {
+.contato {
     height: 868px;
     width: 100%;
     background-color: #353D4B;
 }
-
 .contato_titulo {
     height: 85px;
     width: 299px;
@@ -206,7 +241,6 @@
     letter-spacing: 2px;
     line-height: 85px;
 }
-
 .contato_texto {
     height: 84px;
     width: 782px;
@@ -217,15 +251,13 @@
     font-weight: 200;
     line-height: 42px;
 }
-
-    .botao_enviar {
+.botao_enviar {
     height: 42px;
     width: 197px;
     border-radius: 5px;
     background-color: #30579A;
-    }
-
-    .enviar {
+}
+.enviar {
     height: 21.52px;
     width: 69px;
     color: #E7E9EC;
@@ -235,268 +267,17 @@
     line-height: 22px;
     text-align: center;
 }
-
-    .rodape {
+.rodape {
     height: 131px;
     width: 100%;
     background-color: #1D2430;
 }
 
-    /*@import url("fonts.css");
 
-    @import url("base.css");*/
-
-    /*.rectangle {
-    height: 82px;
-    width: 1440px;
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
-    }
-
-    .effect {
-    height: 676px;
-    width: 1440px;
-    border: 1px solid #979797;
-    background-color: #30579A;
-    }
-
-    .inicio .effect .qualidade-e-satisfacao {
-    height: 204px;
-    width: 894px;
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 87px;
-    font-weight: 800;
-    line-height: 102px;
-    }
-
-    .sobre .resultados-que-geram {
-    height: 42px;
-    width: 982px;
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 200;
-    line-height: 42px;
+/* EDIÇÕES */
+.opcao_menu{
+  float:right;
 }
-
-.rectangle-3 {
-    height: 10px;
-    width: 70px;
-    background-color: rgba(255,255,255,0.9);
+.opcao_menu nav ul li{
+   display:inline-block; 
 }
-
-.sobre2 {
-    height: 235px;
-    width: 606px;
-    opacity: 0.05;
-    color: #353D4B;
-    font-family: Raleway;
-    font-size: 200px;
-    font-weight: 800;
-    letter-spacing: 7px;
-    line-height: 235px;
-}
-
-.sobre {
-    height: 85px;
-    width: 218px;
-    color: #30579A;
-    font-family: Raleway;
-    font-size: 72px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    line-height: 85px;
-}
-
-.rectangle-4 {
-    height: 336.53px;
-    width: 528px;
-}
-
-.rectangle-5 {
-    height: 63.1px;
-    width: 62.48px;
-}
-
-.oval-2 {
-    height: 62px;
-    width: 61px;
-    background-color: rgba(48,87,154,0.2);
-}
-
-.oval {
-    height: 39.68px;
-    width: 39.04px;
-    background-color: #30579A;
-}
-
-.ion-android-arrow-back-ionicon {
-    height: 24px;
-    width: 23.48px;
-    color: #FFFFFF;
-    font-family: Ionicons;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 26px;
-}
-
-.servicos {
-    height: 85px;
-    width: 318px;
-    color: #30579A;
-    font-family: Raleway;
-    font-size: 72px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    line-height: 85px;
-}
-
-.recrutamento-qualita {
-    height: 84px;
-    width: 446px;
-    color: #30579A;
-    font-family: Raleway;
-    font-size: 36px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    line-height: 42px;
-    text-align: center;
-}
-
-.para-discussoes-em-g {
-    height: 105px;
-    width: 446px;
-    color: #353D4B;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: center;
-}
-.rectangle-7 {
-    height: 333px;
-    width: 545px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
-}
-
-.hover {
-    height: 333px;
-    width: 545px;
-    border-radius: 5px;
-    background-color: #30579A;
-    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
-}
-
-.clientes {
-    height: 85px;
-    width: 309px;
-    color: #30579A;
-    font-family: Raleway;
-    font-size: 72px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    line-height: 85px;
-}
-
-.clientes {
-    height: 235px;
-    width: 858px;
-    opacity: 0.05;
-    color: #353D4B;
-    font-family: Raleway;
-    font-size: 200px;
-    font-weight: 800;
-    letter-spacing: 7px;
-    line-height: 235px;
-}
-
-.rectangle-8 {
-    height: 204px;
-    width: 218px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 14px 0 rgba(135,145,161,0.2);
-}
-
-.rectangle-6 {
-    height: 868px;
-    width: 1440px;
-    background-color: #FFFFFF;
-}
-
-.rectangle-62 {
-    height: 925px;
-    width: 1440px;
-    background-color: rgba(135,145,161,0.2);
-}
-
-.enviar {
-    height: 21.52px;
-    width: 69px;
-    color: #FFFFFF;
-    font-family: "Yanone Kaffeesatz";
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 22px;
-    text-align: center;
-}
-
-.rectangle-63 {
-    height: 868px;
-    width: 1440px;
-    background-color: #353D4B;
-}
-
-.contato {
-    height: 85px;
-    width: 299px;
-    color: #E7E9EC;
-    font-family: Raleway;
-    font-size: 72px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    line-height: 85px;
-}
-
-.seu-contato-e-muito {
-    height: 84px;
-    width: 782px;
-    color: #E7E9EC;
-    font-family: Raleway;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 200;
-    line-height: 42px;
-}
-
-.atendimento-segunda {
-    height: 21px;
-    width: 429px;
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-}
-
-.captura-de-tela-2017-07-23-as- {
-    height: 490px;
-    width: 621px;
-}
-
-.rectangle-27 {
-    height: 40px;
-    width: 545px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-}
-
-.rectangle-64 {
-    height: 925px;
-    width: 1440px;
-    background-color: rgba(135,145,161,0.2);
-}*/
