@@ -85,10 +85,10 @@
          <div class="opcao_menu">
             <nav>
                <ul>
-                  <li><a href="#topo">Início</a></li>
-                  <li><a href="#sobre">Sobre</a></li>
-                  <li><a href="#servicos">Serviços</a></li>
-                  <li><a href="#contato">Contato</a></li>
+                  <li><a href="#topo">INÍCIO</a></li>
+                  <li><a href="#sobre">SOBRE</a></li>
+                  <li><a href="#servicos">SERVIÇOS</a></li>
+                  <li><a href="#contato">CONTATO</a></li>
                </ul>
             </nav>
          </div>
@@ -176,7 +176,7 @@
 	                    <main>
 	                    	<div class="banner" >
 
-	                    		<h1>banner com carrossel (não tem container)</h1>
+	                    		<!--h1>banner com carrossel (não tem container)</h1-->
 	                    		<div class="container">
 	                    			<div class="col-md-6">
 
@@ -191,6 +191,13 @@
 
 
 	                    	<div class="sobre" id="sobre">
+
+
+	                    	<div class="sobre_titulo_fundo">
+
+	                    					Sobre
+
+	                    				</div>
 
 
 	                    		<div class="container">
@@ -220,6 +227,12 @@
 
 	                    	<div class="servicos" id="servicos">
 
+
+	                    		<div class="servicos_titulo_fundo">
+
+	                    					Serviços
+
+	                    				</div>
 
 	                    		<div class="container">
 
@@ -257,6 +270,12 @@
 	                    	</div>
 
 	                    	<div class="clientes">
+
+	                    			<div class="clientes_titulo_fundo">
+
+	                    					Clientes
+
+	                    				</div>
 
 
 	                    		<div class="container">

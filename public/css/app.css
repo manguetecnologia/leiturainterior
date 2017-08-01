@@ -21,7 +21,7 @@
 html,
 body {
     height: 100%;
-    max-width: 1260px;
+    max-width: 1400px;
     margin: auto;
 }
 body {
@@ -109,7 +109,7 @@ select:-webkit-autofill {
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
-     max-width: 1260px;
+     max-width: 1400px;
     
 }
 .topo a {
@@ -164,8 +164,9 @@ header {
     color: #FFFFFF;
     font-family: Raleway;
     font-size: 87px;
-    font-weight: 800;
+    font-weight: bolder;
     line-height: 102px;
+    padding-top: 150px;
 }
 .texto_banner {
     height: 42px;
@@ -176,6 +177,7 @@ header {
     font-style: italic;
     font-weight: 200;
     line-height: 42px;
+    padding-top: 150px;
 }
 .sobre {
     height: 868px;
@@ -192,7 +194,64 @@ header {
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 85px;
+    padding-top: 200px;
 }
+
+.sobre_titulo_fundo{
+
+    height: 85px;
+    width: 218px;
+    color: #30579A;
+    font-family: Raleway;
+    position: absolute;
+    top: 830px;
+    right: 1300px;
+    width: 200px;
+    height: 100px;
+    font-size: 150px;
+    /*-webkit-text-fill-color: transparent;*/
+    opacity: 0.1;
+
+
+}
+
+.servicos_titulo_fundo{
+
+    height: 85px;
+    width: 218px;
+    color: #30579A;
+    font-family: Raleway;
+    position: absolute;
+    top: 1630px;
+    right: 1300px;
+    width: 200px;
+    height: 100px;
+    font-size: 150px;
+    /*-webkit-text-fill-color: transparent;*/
+    opacity: 0.1;
+
+
+}
+
+.clientes_titulo_fundo{
+
+    height: 85px;
+    width: 218px;
+    color: #30579A;
+    font-family: Raleway;
+    position: absolute;
+    top: 2530px;
+    right: 1300px;
+    width: 200px;
+    height: 100px;
+    font-size: 150px;
+    /*-webkit-text-fill-color: transparent;*/
+    opacity: 0.1;
+
+
+}
+
+
 .sobre_texto {
     height: 384px;
     width: 545px;
@@ -201,6 +260,7 @@ header {
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
+    padding-top: 90px;
 }
 .servicos {
     height: 925px;
@@ -276,7 +336,7 @@ header {
     height: 131px;
     width: 100%;
     background-color: #1D2430;
-    max-width: 1260px;
+    max-width: 1400px;
 
 }
 
@@ -287,4 +347,6 @@ header {
 }
 .opcao_menu nav ul li{
    display:inline-block; 
+   width: 200px;
+   padding-top: 30px;
 }
