@@ -21,6 +21,8 @@
 html,
 body {
     height: 100%;
+    max-width: 1260px;
+    margin: auto;
 }
 body {
     font-family: Regular, Helvetica, sans-serif;
@@ -107,6 +109,8 @@ select:-webkit-autofill {
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
+     max-width: 1260px;
+    
 }
 .topo a {
     height: 21px;
@@ -231,6 +235,7 @@ header {
     width: 100%;
     background-color: #353D4B;
 }
+    
 .contato_titulo {
     height: 85px;
     width: 299px;
@@ -271,6 +276,8 @@ header {
     height: 131px;
     width: 100%;
     background-color: #1D2430;
+    max-width: 1260px;
+
 }
 
 
