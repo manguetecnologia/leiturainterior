@@ -3,6 +3,12 @@
     src: url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 }
 
+@font-face{
+
+    font-family: Raleway;
+    src: url(https://fonts.googleapis.com/css?family=Raleway);
+}
+
 /* Optional theme */
 @import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
 
@@ -21,7 +27,7 @@
 html,
 body {
     height: 100%;
-    max-width: 1400px;
+    max-width: 1450px;
     margin: auto;
 }
 body {
@@ -109,7 +115,7 @@ select:-webkit-autofill {
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
-     max-width: 1400px;
+     max-width: 1450px;
     
 }
 .topo a {
@@ -134,6 +140,14 @@ select:-webkit-autofill {
 
 header {
     display: inline;
+}
+
+.white_buffer{
+
+    height: 120px;
+    width: 100%;
+    background-color: #FFFFFF;
+
 }
 
 // tira o height // tira o width //
@@ -336,17 +350,39 @@ header {
     height: 131px;
     width: 100%;
     background-color: #1D2430;
-    max-width: 1400px;
+    max-width: 1450px;
 
 }
 
+.texto_rodape{
+
+    height: 44px;
+    width: 383px;
+    color: #E7E9EC;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+
+}
 
 /* EDIÇÕES */
 .opcao_menu{
   float:right;
 }
+
 .opcao_menu nav ul li{
    display:inline-block; 
-   width: 200px;
-   padding-top: 30px;
+   width: 150px;
+   padding-top: 35px;
+}
+
+.texto_rodape ul li{
+
+   display:inline-block;
+   width: 500px;
+   float: left;
+
 }

@@ -73,6 +73,8 @@
 	        <body>
 
 
+
+
 <header>
    <div class="topo" id="topo">
       <div class="container">
@@ -94,6 +96,8 @@
          </div>
       </div>
 </header>
+
+
 
 
 	        	<!--header>
@@ -339,12 +343,24 @@
 
 	                	<div class="container">
 
+	                	<!--div class="texto_rodape">
+	                		<ul>
+	                			
+	                			<li> Endereço da Mangue </li>
+	                			<li> Botão </li>
+	                			<li> Desenvolvido por mangue tecnologia</li>
 
-	                		<h1>Rodapé</h1>
 
-	                		<div class="col-md-4">Endereço da Mangue</div>
-	                		<div class="col-md-4">Botão de Voltar ao Topo</div>
-	                		<div class="col-md-4">Desenvolvido por Mangue Tecnologia</div>
+
+	                		</ul>
+	                	</div-->
+	                		
+
+	                			<div class="col-md-4">
+	                			<div class="texto_rodape">Endereço da Mangue</div></div>
+	                			<div class="col-md-4"><div class="texto_rodape">Botão de Voltar ao Topo</div></div>
+	                			<div class="col-md-4"><div class="texto_rodape">Desenvolvido por Mangue Tecnologia</div></div>
+	                		
 
 	                	</div>
 
