@@ -85,12 +85,12 @@
             <!-- </div> -->
          </div>
          <div class="opcao_menu">
-            <nav>
+            <nav style="margin-top: 10px;">
                <ul>
-                  <li><a href="#topo">INÍCIO</a></li>
-                  <li><a href="#sobre">SOBRE</a></li>
-                  <li><a href="#servicos">SERVIÇOS</a></li>
-                  <li><a href="#contato">CONTATO</a></li>
+                  <li><a href="#topo">Início</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#contato">Contato</a></li>
                </ul>
             </nav>
          </div>

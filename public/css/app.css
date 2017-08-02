@@ -1,13 +1,48 @@
+/*@font-face {
+    font-family: Yanone;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Regular.ttf);
+}
+
 @font-face {
-    font-family: Yanone Kaffeesatz;
-    src: url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    font-family: Yanone-Light;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Light.ttf);
+}
+
+@font-face {
+    font-family: Yanone-Bold;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yanone-ExtraLight;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-ExtraLight.ttf);
 }
 
 @font-face{
 
     font-family: Raleway;
-    src: url(https://fonts.googleapis.com/css?family=Raleway);
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
 }
+
+@font-face{
+
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-ExtraBold;
+    src: url(../fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-Italic;
+    src: url(../fonts/Raleway/Raleway-Italic.ttf);
+}*/
+
+@import url("fonts.css");
 
 /* Optional theme */
 @import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
@@ -27,7 +62,7 @@
 html,
 body {
     height: 100%;
-    max-width: 1450px;
+    /*max-width: 1450px;*/
     margin: auto;
 }
 body {
@@ -110,12 +145,14 @@ select:-webkit-autofill {
     font-size: 22px;
 }
 .topo {
-    height: 82px;
+    /*height: 82px;*/
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
-     max-width: 1450px;
+    z-index: 3;
+     /*max-width: 1450px;*/
+   /*margin-top: 10px;*/
     
 }
 .topo a {
@@ -127,10 +164,12 @@ select:-webkit-autofill {
     font-weight: bold;
     line-height: 22px;
     text-align: center;
-    padding:
+    z-index: 3;
+    /*padding:*/
 }
 .logo {
     float: left;
+    z-index: 3;
 }
 
 // vc deve definir nesse caso
@@ -159,6 +198,8 @@ header {
     line-height: 22px;
     text-align: center;
     float: right;
+    z-index: 3;
+
 }
 .menu_item_hover {
     height: 44px;
@@ -171,6 +212,7 @@ header {
     width: 100%;
     border: 1px solid #979797;
     background-color: #30579A;
+    z-index: 2;
 }
 .titulo_banner {
     height: 204px;
@@ -181,6 +223,7 @@ header {
     font-weight: bolder;
     line-height: 102px;
     padding-top: 150px;
+    z-index: 2;
 }
 .texto_banner {
     height: 42px;
@@ -192,12 +235,14 @@ header {
     font-weight: 200;
     line-height: 42px;
     padding-top: 150px;
+    z-index: 2;
 }
 .sobre {
     height: 868px;
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 .sobre_titulo {
     height: 85px;
@@ -209,6 +254,7 @@ header {
     letter-spacing: 2px;
     line-height: 85px;
     padding-top: 200px;
+    z-index: 2;
 }
 
 .sobre_titulo_fundo{
@@ -225,6 +271,7 @@ header {
     font-size: 150px;
     /*-webkit-text-fill-color: transparent;*/
     opacity: 0.1;
+    z-index: 1;
 
 
 }
@@ -243,6 +290,7 @@ header {
     font-size: 150px;
     /*-webkit-text-fill-color: transparent;*/
     opacity: 0.1;
+    z-index: 1;
 
 
 }
@@ -261,6 +309,7 @@ header {
     font-size: 150px;
     /*-webkit-text-fill-color: transparent;*/
     opacity: 0.1;
+    z-index: 1;
 
 
 }
@@ -275,11 +324,13 @@ header {
     font-weight: 300;
     line-height: 24px;
     padding-top: 90px;
+    z-index: 2;
 }
 .servicos {
     height: 925px;
     width: 100%;
     background-color: rgba(135, 145, 161, 0.2);
+    z-index: 2;
 }
 .servicos_folder {
     height: 333px;
@@ -298,16 +349,19 @@ header {
     letter-spacing: 1px;
     line-height: 42px;
     text-align: center;
+    z-index: 2;
 }
 .clientes {
     height: 868px;
     width: 100%px;
     background-color: #FFFFFF;
+    z-index: 2;
 }
 .contato {
     height: 868px;
     width: 100%;
     background-color: #353D4B;
+    z-index: 2;
 }
     
 .contato_titulo {
@@ -319,6 +373,7 @@ header {
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 85px;
+    z-index: 2;
 }
 .contato_texto {
     height: 84px;
@@ -329,12 +384,14 @@ header {
     font-style: italic;
     font-weight: 200;
     line-height: 42px;
+    z-index: 2;
 }
 .botao_enviar {
     height: 42px;
     width: 197px;
     border-radius: 5px;
     background-color: #30579A;
+    z-index: 2;
 }
 .enviar {
     height: 21.52px;
@@ -345,12 +402,14 @@ header {
     font-weight: bold;
     line-height: 22px;
     text-align: center;
+    z-index: 2;
 }
 .rodape {
     height: 131px;
     width: 100%;
     background-color: #1D2430;
-    max-width: 1450px;
+    /*max-width: 1450px;*/
+    z-index: 2;
 
 }
 
@@ -364,6 +423,7 @@ header {
     line-height: 22px;
     padding-top: 50px;
     padding-left: 50px;
+    z-index: 2;
 
 
 }
@@ -377,6 +437,7 @@ header {
    display:inline-block; 
    width: 150px;
    padding-top: 35px;
+   text-transform: uppercase;
 }
 
 .texto_rodape ul li{

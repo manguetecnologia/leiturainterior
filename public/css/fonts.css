@@ -1,10 +1,43 @@
 @font-face {
-    font-family: Raleway;
-    src: url(https://fonts.googleapis.com/css?family=Raleway);
+    font-family: Yanone;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Regular.ttf);
+}
+
+@font-face {
+    font-family: Yanone-Light;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Light.ttf);
+}
+
+@font-face {
+    font-family: Yanone-Bold;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yanone-ExtraLight;
+    src: url(../fonts/Yanone_Kaffeesatz/Yanone_Kaffeesatz-ExtraLight.ttf);
 }
 
 @font-face{
-	font-family: Yanone;
-	src: url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);	
+
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
 }
 
+@font-face{
+
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-ExtraBold;
+    src: url(../fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-Italic;
+    src: url(../fonts/Raleway/Raleway-Italic.ttf);
+}
