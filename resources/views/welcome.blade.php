@@ -87,7 +87,7 @@
          <div class="opcao_menu">
             <nav style="margin-top: 10px;">
                <ul>
-                  <li><a href="#topo">Início</a></li>
+                  <li><a href="#banner">Início</a></li>
                   <li><a href="#sobre">Sobre</a></li>
                   <li><a href="#servicos">Serviços</a></li>
                   <li><a href="#contato">Contato</a></li>
@@ -178,7 +178,7 @@
 	                    </div>
 
 	                    <main>
-	                    	<div class="banner" >
+	                    	<div class="banner" id="banner" >
 
 	                    		<!--h1>banner com carrossel (não tem container)</h1-->
 	                    		<div class="container">
@@ -315,26 +315,37 @@
 	                    		<div class="col-md-6">
 	                    			<div class="campo_de_preenchimento">
 	                    			<form>
-	                    				<br>
+	                    				
 	                    				<label>
+	                    				<br>
 	                    				<input type="text" name="seunome" value="Seu Nome"><br></label>
+	                    				<br>
 	                    				<br>
 	                    				<label>
 	                    				<input type="text" name="telefone" value="Telefone"><br></label>
 	                    				<br>
+	                    				<br>
 	                    				<label>
 	                    				<input type="text" name="assunto" value="Assunto"><br></label>
 	                    				<br>
+	                    				<br>
 	                    				<label>
-	                    				<input type="textarea" name="mensagem" value="Mensagem"><br></label>
+	                    				<textarea id="mensagem" value="mensagem"></textarea></label>
 	                    				</div>
 	                    			</form>
 
-<!--label><button class="button_contato">Enviar</button></label-->
+	                    			<a href="#banner"><div class="retangulo_enviar enviartexto">
+	                    				Enviar
+	                    			</div>
+	                    			</a>
+<!--label><button class="button_contato">
+
+</button></label-->
 
 	                    		</div>
-	                    		<div class="col-md-6">col-md-6 Google Maps
-	                    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	                    		<div class="col-md-6">
+	                    		<style type="text/css">iframe{ margin-left: 200px; }</style>
+	                    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="621" height="490" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 	                    		</div>
 
