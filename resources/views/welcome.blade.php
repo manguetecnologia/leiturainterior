@@ -162,15 +162,15 @@
 	                   <!--a href="#home">Home</a>
 	                    <a href="#news">News</a>
 	                    <a href="#contact">Contact</a-->
-	                    	
+
 	                            <!--div class="col-md-4">.col-md-4 - logo</div>
 	                            <div class="col-md-2">Início</div></div>
 	                            <div class="col-md-2">Sobre</div>
 	                            <div class="col-md-2">Serviços</div>
 	                            <div class="col-md-2">Contato</div-->
-	                            	
 
-	                            	
+
+
 
 
 
@@ -340,20 +340,20 @@
 	                            			<div class="col-md-6">
 	                            				<div class="campo_de_preenchimento">
 	                            					<form>
-	                            						
+
 	                            						<label>
-	                            							<br>
+	                            							
 	                            							<input type="text" name="seunome" value="Seu Nome"><br></label>
-	                            							<br>
-	                            							<br>
+	                            							
+
 	                            							<label>
 	                            								<input type="text" name="telefone" value="Telefone"><br></label>
-	                            								<br>
-	                            								<br>
+	                            								
+	                            								
 	                            								<label>
 	                            									<input type="text" name="assunto" value="Assunto"><br></label>
-	                            									<br>
-	                            									<br>
+	                            									
+	                            									
 	                            									<label>
 	                            										<textarea id="mensagem" value="mensagem"></textarea></label>
 	                            									</div>
@@ -393,16 +393,16 @@
 	<div class="container">
 
 		<div class="row">
-			
-			
-			
+
+
+
 			<div class="col-md-4">	<div class="texto_rodape">Endereço da Mangue</div></div>
 			<div class="col-md-4">	<div class="texto_rodape">seta</div></div>
 			<div class="col-md-4">	<div class="texto_rodape">Desenvolvido por Mangue Tecnologia</div></div>
 
-			
 
-			
+
+
 
 		</div>
 
@@ -417,14 +417,14 @@
 
 	                		</ul>
 	                	</div-->
-	                	
+
 
 
 	                			<!--div class="col-md-4">
 	                			<div class="texto_rodape">Endereço da Mangue</div></div>
 	                			<div class="col-md-4"><div class="texto_rodape">Botão de Voltar ao Topo</div></div>
 	                			<div class="col-md-4"><div class="texto_rodape">Endereço da Mangue</div></div-->
-	                			
+
 
 	                		</div>
 
