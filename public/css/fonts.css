@@ -41,3 +41,27 @@
     font-family: Raleway-Italic;
     src: url(../fonts/Raleway/Raleway-Italic.ttf);
 }
+
+@font-face{
+
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-Light-Italic;
+    src: url(../fonts/Raleway/Raleway-LightItalic.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-ExtraLight;
+    src: url(../fonts/Raleway/Raleway-ExtraLight.ttf);
+}
+
+@font-face{
+
+    font-family: Raleway-ExtraLight-Italic;
+    src: url(../fonts/Raleway/Raleway-ExtraLightItalic.ttf);
+}

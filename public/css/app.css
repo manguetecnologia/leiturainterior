@@ -401,7 +401,7 @@ header {
     height: 84px;
     width: 446px;
     color: #30579A;
-    font-family: Raleway;
+    /*font-family: Raleway;*/
     font-size: 36px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -469,13 +469,25 @@ header {
    /* height: 84px;
     width: 782px; */
     color: #E7E9EC;
-    font-family: Raleway;
+    font-family: Raleway-ExtraLight-Italic;
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
     line-height: 42px;
     z-index: 2;
    /* padding-top: 50px; */
+}
+
+.contato_atendimento{
+
+  
+    color: #FFFFFF;
+    font-family: Raleway-ExtraLight;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+
+
 }
 .botao_enviar {
     height: 42px;

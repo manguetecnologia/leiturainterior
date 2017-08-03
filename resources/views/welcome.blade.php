@@ -336,6 +336,10 @@
 	                            			<h2>Seu Contato é muito importante para nós! <br>Nos envie sua dúvida, deixe sua crítica ou elogios</h2>
 	                            		</div>
 
+	                            		<div class="contato_atendimento">
+	                            			<p>Atendimento: Segunda a sexta, das 09:00 às 18:00h.</p>
+	                            		</div>
+
 	                            		<div class="container">
 	                            			<div class="col-md-6">
 	                            				<div class="campo_de_preenchimento">
@@ -360,7 +364,7 @@
 
 	                            									<label><button class="button_contato">
 
-	                            									Enviar
+	                            										Enviar
 	                            										<!--div class="enviartexto">Enviar</div-->
 	                            									</button></label>
 
