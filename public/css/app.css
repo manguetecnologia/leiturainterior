@@ -371,6 +371,7 @@ header {
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
 
+
 }
 
 .servicos_folder_down {
@@ -403,8 +404,9 @@ header {
     letter-spacing: 1px;
     line-height: 42px;
     text-align: center;
-    text-transform: uppercase;
+    
     margin-left: 50px;
+    padding-top: 25px;
 
 
 }
@@ -418,6 +420,7 @@ header {
     font-weight: 500;
     line-height: 21px;
     text-align: center;
+    padding-top: 80px;
 }
 
 .servicos_texto {
