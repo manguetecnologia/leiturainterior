@@ -405,7 +405,7 @@ header {
     z-index: 2;
 }
 .rodape {
-    height: 131px;
+    /*height: 131px;*/
     width: 100%;
     background-color: #1D2430;
     /*max-width: 1450px;*/
@@ -415,8 +415,8 @@ header {
 
 .texto_rodape{
 
-    height: 44px;
-    width: 383px;
+    /*height: 44px;*/
+   /* width: 383px; */
     color: #E7E9EC;
     font-family: Raleway;
     font-size: 14px;
@@ -424,6 +424,7 @@ header {
     padding-top: 50px;
     padding-left: 50px;
     z-index: 2;
+
 
 
 }
