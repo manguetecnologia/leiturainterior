@@ -311,25 +311,36 @@
 	                    			<h2>Seu Contato é muito importante para nós! <br>Nos envie sua dúvida, deixe sua crítica ou elogios</h2>
 	                    		</div>
 
-
+	                    		<div class="container">
 	                    		<div class="col-md-6">
-
+	                    			<div class="campo_de_preenchimento">
 	                    			<form>
 	                    				<br>
-	                    				<input type="text" name="seunome" value="Seu Nome"><br>
+	                    				<label>
+	                    				<input type="text" name="seunome" value="Seu Nome"><br></label>
 	                    				<br>
-	                    				<input type="text" name="telefone" value="Telefone"><br>
+	                    				<label>
+	                    				<input type="text" name="telefone" value="Telefone"><br></label>
 	                    				<br>
-	                    				<input type="text" name="assunto" value="Assunto"><br>
+	                    				<label>
+	                    				<input type="text" name="assunto" value="Assunto"><br></label>
 	                    				<br>
-	                    				<input type="text" name="mensagem" value="Mensagem"><br>
+	                    				<label>
+	                    				<input type="textarea" name="mensagem" value="Mensagem"><br></label>
+	                    				</div>
 	                    			</form>
+
+<label><button class="button_contato">Enviar</button></label>
 
 	                    		</div>
 	                    		<div class="col-md-6">col-md-6 Google Maps</div>
 
+	                    			<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe-->
 
 	                    	</div>
+
+	                    </div>
+
 
 
 
