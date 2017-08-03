@@ -407,9 +407,11 @@ header {
     letter-spacing: 1px;
     line-height: 42px;
     text-align: center;
+
     
     margin-left: 50px;
     padding-top: 25px;
+    font-family: Raleway-Bold;
 
 
 }
@@ -455,9 +457,9 @@ header {
     /*height: 85px;*/
     /*width: 299px; */
     color: #E7E9EC;
-    font-family: Raleway;
+    font-family: Raleway-Bold;
     font-size: 72px;
-    font-weight: 800;
+    /*font-weight: bold;*/
     letter-spacing: 2px;
     line-height: 85px;
     z-index: 2;
