@@ -340,13 +340,86 @@ header {
     background-color: rgba(135, 145, 161, 0.2);
     z-index: 2;
 }
-.servicos_folder {
+
+.servicos_titulo{
+
+    height: 85px;
+    width: 318px;
+    color: #30579A;
+    font-family: Raleway;
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 85px;
+    margin-top: 170px
+
+
+}
+.servicos_folder_up {
     height: 333px;
     width: 545px;
     border-radius: 5px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
+
+.servicos_folder_up:hover {
+    height: 333px;
+    width: 545px;
+    border-radius: 5px;
+    background-color: #30579A;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+
+}
+
+.servicos_folder_down {
+    height: 333px;
+    width: 545px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.servicos_folder_down:hover {
+    height: 333px;
+    width: 545px;
+    border-radius: 5px;
+    background-color: #30579A;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+   
+}
+
+.servicos_titulo_do_servico{
+
+    
+    height: 84px;
+    width: 446px;
+    color: #30579A;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+
+}
+
+.servico_texto {
+    height: 105px;
+    width: 446px;
+    color: #353D4B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+
 .servicos_texto {
     height: 84px;
     width: 446px;

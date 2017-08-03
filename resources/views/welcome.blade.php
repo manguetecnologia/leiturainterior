@@ -240,31 +240,54 @@
 
 	                    		<div class="container">
 
-	                    			<h1>Serviços</h1>
+	                    			<div class="servicos_titulo"><h1>Serviços</h1></div>
 
 	                    			<div class="row">
 	                    				<div class="col-md-6">
-	                    					<div class="servicos_sobre">Serviço 1</div>
+	                    					<!--div class="servicos_sobre">Serviço 1</div-->
+	                    					<div class="servicos_folder_up">
+	                    						<div class="servicos_titulo_do_servico">Recrutamento Qualitativo
+	                    								<div class="servico_texto">Descrição do Serviço</div>
+
+
+	                    						</div>
+
+
+
+	                    					</div>
 
 
 	                    				</div>
 	                    				<div class="col-md-6">
+	                    				<div class="servicos_folder_up">
+	                    					<div class="servicos_titulo_do_servico">Pesquisa Qualitativa
 
-	                    					<div class="servicos_sobre">Serviço 2</div>
+	                    						<div class="servico_texto">Descrição do Serviço</div>
 
+	                    					</div>
+
+	                    				</div>
 	                    				</div>
 	                    			</div>
 
 	                    			<div class="row">
 	                    				<div class="col-md-6">
+										<div class="servicos_folder_down">
+	                    					<div class="servicos_titulo_do_servico">Equipe de Entrevistadores
 
-	                    					<div class="servicos_sobre">Serviço 3</div>
+	                    						<div class="servico_texto">Descrição do Serviço</div>
 
+	                    					</div>
 	                    				</div>
-	                    				<div class="col-md-6">
+	                    				</div>
+	                    				<div class="col-md-6">	
+										<div class="servicos_folder_down">
+	                    					<div class="servicos_titulo_do_servico">Locação de Salas
 
-	                    					<div class="servicos_sobre">Serviço 4</div>
+	                    						<div class="servico_texto">Descrição do Serviço</div>
 
+	                    					</div>
+	                    				</div>
 	                    				</div>
 	                    			</div>          
 
