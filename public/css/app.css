@@ -551,8 +551,18 @@ header {
     width: 197px;
     border-radius: 5px;
     background-color: #30579A;
-    margin-top:  300px;
-    margin-left: 350px;
+    /*margin-top:  300px;
+    margin-left: 350px; */
+    color: #E7E9EC;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+   /* padding-left: 80px; */
+   padding-top: 5px;
+   text-transform: uppercase;
+
 }
 
 textarea {
@@ -573,8 +583,8 @@ textarea {
 }
 
 .enviartexto {
-    height: 21.52px;
-    width: 69px;
+    /*height: 21.52px;
+    width: 69px;*/
     color: #E7E9EC;
     font-family: "Yanone Kaffeesatz";
     font-size: 18px;
@@ -582,7 +592,7 @@ textarea {
     line-height: 22px;
     text-align: center;
    /* padding-left: 80px; */
-   padding-top: 10px;
+   padding-top: 5px;
    text-transform: uppercase;
 
 }

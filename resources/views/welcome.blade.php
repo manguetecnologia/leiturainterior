@@ -357,54 +357,59 @@
 	                            									<label>
 	                            										<textarea id="mensagem" value="mensagem"></textarea></label>
 	                            									</div>
+
+	                            									<label><button class="button_contato">
+
+	                            									Enviar
+	                            										<!--div class="enviartexto">Enviar</div-->
+	                            									</button></label>
+
 	                            								</form>
 
-	                            								<a href="#banner"><div class="retangulo_enviar enviartexto">
+	                            								<!--a href="#banner"><div class="retangulo_enviar enviartexto">
 	                            									Enviar
 	                            								</div>
-	                            							</a>
-<!--label><button class="button_contato">
-
-</button></label-->
-
-</div>
-<div class="col-md-6">
-	<style type="text/css">iframe{ margin-left: 200px; }</style>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="621" height="490" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</div>
+	                            							</a-->
 
 
-</div>
+	                            						</div>
+	                            						<div class="col-md-6">
+	                            							<style type="text/css">iframe{ margin-left: 200px; }</style>
+	                            							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="621" height="490" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-</div>
+	                            						</div>
+
+
+	                            					</div>
+
+	                            				</div>
 
 
 
 
 
-</div>
+	                            			</div>
 
-</main>
+	                            		</main>
 
-<div class="rodape">
-
-
-	<div class="container">
-
-		<div class="row">
+	                            		<div class="rodape">
 
 
+	                            			<div class="container">
 
-			<div class="col-md-4">	<div class="texto_rodape">Endereço da Mangue</div></div>
-			<div class="col-md-4">	<div class="texto_rodape">seta</div></div>
-			<div class="col-md-4">	<div class="texto_rodape">Desenvolvido por Mangue Tecnologia</div></div>
+	                            				<div class="row">
 
 
 
+	                            					<div class="col-md-4">	<div class="texto_rodape">Endereço da Mangue</div></div>
+	                            					<div class="col-md-4">	<div class="texto_rodape">seta</div></div>
+	                            					<div class="col-md-4">	<div class="texto_rodape">Desenvolvido por Mangue Tecnologia</div></div>
 
 
-		</div>
+
+
+
+	                            				</div>
 
 	                	<!--div class="texto_rodape">
 	                		<ul>
