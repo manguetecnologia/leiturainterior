@@ -329,8 +329,8 @@
 
 
 	                            	<div class="container">
-	                            		<div class="contato_titulo">
-	                            			<h1>Contato</h1>
+	                            		<div id="titulo_contato">
+	                            			<h1 class="contato_titulo">Contato</h1>
 	                            		</div>
 	                            		<div class="contato_texto">
 	                            			<h2>Seu Contato é muito importante para nós! <br>Nos envie sua dúvida, deixe sua crítica ou elogios</h2>
