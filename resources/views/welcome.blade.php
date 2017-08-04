@@ -207,9 +207,9 @@
 	                            		<div class="container">
 
 	                            			<div class="col-md-12">
-	                            				<div class="sobre_titulo">
+	                            				<div id="sobre_header">
 
-	                            					<h1>Sobre</h1>
+	                            					<h1 class="sobre_titulo">Sobre</h1>
 
 	                            				</div>
 
@@ -240,7 +240,7 @@
 
 	                            		<div class="container">
 
-	                            			<div class="servicos_titulo"><h1>Serviços</h1></div>
+	                            			<div id="servicos_titulo_header"><h1 class="servicos_titulo">Serviços</h1></div>
 
 	                            			<div class="row">
 	                            				<div class="col-md-6">
@@ -309,13 +309,16 @@
 
 	                            		<div class="container">
 
-	                            			<h1>Clientes</h1>
+	                            			<h1 class="clientes_titulo">Clientes</h1>
 
-	                            			<div class="row">
-	                            				<div class="col-md-3">Cliente 1</div>
-	                            				<div class="col-md-3">Cliente 2</div>
-	                            				<div class="col-md-3">Cliente 3</div>
-	                            				<div class="col-md-3">Cliente 4</div>
+	                            			<div class="carrossel_clientes">	                            			
+	                            				<div class="row">
+	                            					<div class="col-md-3">Cliente 1</div>
+	                            					<div class="col-md-3">Cliente 2</div>
+	                            					<div class="col-md-3">Cliente 3</div>
+	                            					<div class="col-md-3">Cliente 4</div>
+	                            				</div>
+	
 	                            			</div>
 
 	                            		</div>
@@ -362,7 +365,7 @@
 	                            										<textarea id="mensagem" value="mensagem"></textarea></label>
 	                            									</div>
 
-	                            									<label><button class="button_contato">
+	                            									<label><button type="submit" class="button_contato">
 
 	                            										Enviar
 	                            										<!--div class="enviartexto">Enviar</div-->
