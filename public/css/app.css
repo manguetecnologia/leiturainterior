@@ -49,8 +49,9 @@
 @import url("fonts.css");
 @import url("bootstrap.min.css");
 @import url("bootstrap-theme.min.css");
-/*@import url("owl.carousel.min.css");
-@import url("owl.theme.default.min.css");*/
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
+@import url("owl.theme.green.min.css");
 
 /* RESET */
 

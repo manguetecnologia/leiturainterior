@@ -11,9 +11,9 @@
 				    	<!--link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css"-->
 				    	<link href="https://fonts.googleapis.com/css?family=Raleway|Yanone+Kaffeesatz" rel="stylesheet">
 				    	<link href="{{ URL::asset('css/app.css')}}" rel="stylesheet">
-				    	<link href="{{ URL::asset('css/owl.carousel.min.css')}}" rel="stylesheet">
+				    	<!--link href="{{ URL::asset('css/owl.carousel.min.css')}}" rel="stylesheet">
 				    	<link href="{{ URL::asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
-				    	<link href="{{ URL::asset('css/owl.theme.green.min.css')}}" rel="stylesheet">
+				    	<link href="{{ URL::asset('css/owl.theme.green.min.css')}}" rel="stylesheet"-->
 				    	<!--link href="{{ URL::asset('css/bootstrap.min.css')}}" rel="stylesheet"-->
 				    	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
 				    	<script type="text/javascript" src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
