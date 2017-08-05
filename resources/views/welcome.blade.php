@@ -411,9 +411,10 @@
 
 
 
-	                            					<div class="col-md-4">	<div class="texto_rodape">Endereço da Mangue</div></div>
+	                            					<div class="col-md-4">	<div class="texto_rodape">Rua Luiz Barbalho, 149 | Boa Vista - Recife / PE | 50070-120<p>
+													+55 (81) 3421.3732 | contato@leiturainterior.com.br</div></div>
 	                            					<div class="col-md-4">	<div class="texto_rodape">seta</div></div>
-	                            					<div class="col-md-4">	<div class="texto_rodape">Desenvolvido por Mangue Tecnologia</div></div>
+	                            					<div class="col-md-4">	<div class="texto_rodape">Desenvolvido pela <b>Mangue Tecnologia</b></div></div>
 
 
 
