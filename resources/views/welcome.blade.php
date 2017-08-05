@@ -327,11 +327,15 @@
 				                            					$('.owl-carousel').owlCarousel({
 
 				                            						loop:true,
-				                            						margin:10,
-				                            						nav:true
+				                            						margin:5,
+				                            						nav:true,
+				                            						center: true
+
 
 				                            					});
-				                            				});</script>
+				                            				});
+
+				                            				</script>
 
 				                            				<!--script type="text/javascript">
 				                            					
@@ -355,6 +359,22 @@
 				                            				</script-->
 
 				                            				<div class="owl-carousel owl-theme">
+
+				                            				<style type="text/css">
+
+				                            				.item{
+
+				                            					color: red;
+				                            					background-color: #353D4B;
+				                            					width: 50%;
+				                            					height: 100px;
+				                            					text-align: center;
+				                            					padding: 30px;
+				                            					margin-top: 200px;
+				                            				}
+
+				                            				</style>
+
 				                            					<div class="item"><h4>1</h4></div>
 				                            					<div class="item"><h4>2</h4></div>
 				                            					<div class="item"><h4>3</h4></div>
