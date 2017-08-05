@@ -12,6 +12,8 @@
 				    	<link href="https://fonts.googleapis.com/css?family=Raleway|Yanone+Kaffeesatz" rel="stylesheet">
 				    	<link href="{{ URL::asset('css/app.css')}}" rel="stylesheet">
 				    	<link href="{{ URL::asset('css/owl.carousel.min.css')}}" rel="stylesheet">
+				    	<link href="{{ URL::asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
+				    	<link href="{{ URL::asset('css/owl.theme.green.min.css')}}" rel="stylesheet">
 				    	<!--link href="{{ URL::asset('css/bootstrap.min.css')}}" rel="stylesheet"-->
 				    	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
 				    	<script type="text/javascript" src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
@@ -322,17 +324,49 @@
 
 				                            			<script type="text/javascript">
 				                            				$(document).ready(function(){
-				                            					$('.owl-carousel').owlCarousel();
+				                            					$('.owl-carousel').owlCarousel({
+
+				                            						loop:true,
+				                            						margin:10,
+				                            						nav:true
+
+				                            					});
 				                            				});</script>
 
+				                            				<!--script type="text/javascript">
+				                            					
+				                            					$('.owl-carousel').owlCarousel({
+				                            						loop:true,
+				                            						margin:10,
+				                            						nav:true,
+				                            						responsive:{
+				                            							0:{
+				                            								items:1
+				                            							},
+				                            							600:{
+				                            								items:3
+				                            							},
+				                            							1000:{
+				                            								items:5
+				                            							}
+				                            						}
+				                            					})
+
+				                            				</script-->
+
 				                            				<div class="owl-carousel owl-theme">
-				                            					<div> Cliente 1 </div>
-				                            					<div> Cliente 2 </div>
-				                            					<div> Cliente 3 </div>
-				                            					<div> Cliente 4 </div>
-				                            					<div> Cliente 5 </div>
-				                            					<div> Cliente 6 </div>
-				                            					<div> Cliente 7 </div>
+				                            					<div class="item"><h4>1</h4></div>
+				                            					<div class="item"><h4>2</h4></div>
+				                            					<div class="item"><h4>3</h4></div>
+				                            					<div class="item"><h4>4</h4></div>
+				                            					<div class="item"><h4>5</h4></div>
+				                            					<div class="item"><h4>6</h4></div>
+				                            					<div class="item"><h4>7</h4></div>
+				                            					<div class="item"><h4>8</h4></div>
+				                            					<div class="item"><h4>9</h4></div>
+				                            					<div class="item"><h4>10</h4></div>
+				                            					<div class="item"><h4>11</h4></div>
+				                            					<div class="item"><h4>12</h4></div>
 				                            				</div>
 
 				                            			<!--div class="carrossel_clientes">	                            			
