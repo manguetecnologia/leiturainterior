@@ -329,7 +329,12 @@
 				                            						loop:true,
 				                            						margin:5,
 				                            						nav:true,
-				                            						center: true
+				                            						center: true,
+				                            						dots:false,
+				                            						navText: [
+            "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>",
+            "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"
+            ]
 
 
 				                            					});
