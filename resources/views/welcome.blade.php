@@ -345,26 +345,26 @@
 	                            			<p>Atendimento: Segunda a sexta, das 09:00 às 18:00h.</p>
 	                            		</div>
 
-	                            		<div class="container">
+	                            		<div class="row">
 	                            			<div class="col-md-6">
 	                            				<div class="campo_de_preenchimento">
 	                            					<form>
 
 	                            						<label>
 	                            							
-	                            							<input type="text" name="seunome" value="Seu Nome"><br></label>
+	                            							<input type="text" name="seunome" placeholder="Seu Nome"><br></label>
 	                            							
 
 	                            							<label>
-	                            								<input type="text" name="telefone" value="Telefone"><br></label>
+	                            								<input type="text" name="telefone" placeholder="Telefone"><br></label>
 	                            								
 	                            								
 	                            								<label>
-	                            									<input type="text" name="assunto" value="Assunto"><br></label>
+	                            									<input type="text" name="assunto" placeholder="Assunto"><br></label>
 	                            									
 	                            									
 	                            									<label>
-	                            										<textarea id="mensagem" value="mensagem"></textarea></label>
+	                            										<textarea id="mensagem" placeholder="Mensagem"></textarea></label>
 	                            									
 
 	                            									<label><button type="submit" class="button_contato">
