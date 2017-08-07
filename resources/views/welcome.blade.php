@@ -332,15 +332,15 @@
 				                            						center: true,
 				                            						dots:false,
 				                            						navText: [
-            "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>",
-            "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"
-            ]
+				                            						"<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>",
+				                            						"<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"
+				                            						]
 
 
 				                            					});
 				                            				});
 
-				                            				</script>
+				                            			</script>
 
 				                            				<!--script type="text/javascript">
 				                            					
@@ -363,35 +363,28 @@
 
 				                            				</script-->
 
-				                            				<div class="owl-carousel owl-theme">
+				                            				<div class="galeria_clientes">
+				                            					<div class="container">
 
-				                            				<style type="text/css">
+				                            					<div class="owl-carousel owl-theme">
 
-				                            				.item{
+				                            						<!--div class="item"><img src="{{ URL::asset('img/dbz.jpg')}}"></div-->
 
-				                            					color: red;
-				                            					background-color: #353D4B;
-				                            					width: 50%;
-				                            					height: 100px;
-				                            					text-align: center;
-				                            					padding: 30px;
-				                            					margin-top: 200px;
-				                            				}
-
-				                            				</style>
-
-				                            					<div class="item"><h4>1</h4></div>
-				                            					<div class="item"><h4>2</h4></div>
-				                            					<div class="item"><h4>3</h4></div>
-				                            					<div class="item"><h4>4</h4></div>
-				                            					<div class="item"><h4>5</h4></div>
-				                            					<div class="item"><h4>6</h4></div>
-				                            					<div class="item"><h4>7</h4></div>
-				                            					<div class="item"><h4>8</h4></div>
-				                            					<div class="item"><h4>9</h4></div>
-				                            					<div class="item"><h4>10</h4></div>
-				                            					<div class="item"><h4>11</h4></div>
-				                            					<div class="item"><h4>12</h4></div>
+				                            						<div class="item"><h4>1</h4></div>
+				                            						<div class="item"><h4>2</h4></div>
+				                            						<div class="item"><h4>3</h4></div>
+				                            						<div class="item"><h4>4</h4></div>
+				                            						<div class="item"><h4>5</h4></div>
+				                            						<div class="item"><h4>6</h4></div>
+				                            						<div class="item"><h4>7</h4></div>
+				                            						<div class="item"><h4>8</h4></div>
+				                            						<div class="item"><h4>9</h4></div>
+				                            						<div class="item"><h4>10</h4></div>
+				                            						<div class="item"><h4>11</h4></div>
+				                            						<div class="item"><h4>12</h4></div>
+				                            						
+				                            					</div>
+				                            					</div>
 				                            				</div>
 
 				                            			<!--div class="carrossel_clientes">	                            			
