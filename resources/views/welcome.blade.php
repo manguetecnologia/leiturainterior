@@ -175,55 +175,54 @@
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente"><button onclick="chama_function()">Visitar</button></div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;"  href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>								</div>
+							</div>
+							<div class="item">
+								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+								<div class="overlay">
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
-								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<div class="text_banner_cliente">Visitar</div>
+									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
 							</div>
 						</div>

@@ -800,7 +800,7 @@ textarea {
 
  /*padding-top: 100px; */ 
 
-opacity: 0.5;
+opacity: 0.9;
 
 }
 
@@ -882,16 +882,19 @@ opacity: 0.5;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #30579A;
 }
 
 .text_banner_cliente {
-  color: white;
-  font-size: 20px;
+  color: #FFFFFF;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   opacity: 1;
+  font-family: Yanone;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
 }
