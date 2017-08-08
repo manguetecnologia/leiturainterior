@@ -233,7 +233,11 @@
 
 				                            				<p>Com atendimento especializado, a Leitura oferece suporte técnico e de pesquisa com vistas à obtenção de resultados que possam gerar novas oportunidades para os clientes. Tudo isso, por meio de uma metodologia inovadora que alia estratégias arrojadas e conhecimento do mercado. </p>
 				                            			</div>
-				                            			<div class="col-md-6">.col-md-6 carrossel lateral</div>
+				                            			<div class="col-md-6">.col-md-6 carrossel lateral
+
+
+
+				                            			</div>
 
 				                            		</div>
 
@@ -364,9 +368,9 @@
 				                            				</script-->
 
 				                            				<div class="galeria_clientes">
-				                            					<div class="container">
+				                            				
 
-				                            					<div class="owl-carousel owl-theme">
+				                            					<div class="owl-galeria owl-carousel owl-theme">
 
 				                            						<!--div class="item"><img src="{{ URL::asset('img/dbz.jpg')}}"></div-->
 
@@ -384,7 +388,7 @@
 				                            						<div class="item"><h4>12</h4></div>
 				                            						
 				                            					</div>
-				                            					</div>
+				                            					
 				                            				</div>
 
 				                            			<!--div class="carrossel_clientes">	                            			

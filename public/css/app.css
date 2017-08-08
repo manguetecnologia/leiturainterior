@@ -734,25 +734,41 @@ textarea {
     margin-left: 350px;
 }
 
-.owl-carousel .owl-item{
- color: red;
+.galeria_clientes .owl_galeria{
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.galeria_clientes .owl-carousel .owl-item{
+ /*color: red;
  background-color: #353D4B; 
  width: 100px;
  height: 100px;
  text-align: center;
  padding: 30px; 
- margin-top: 100px; 
+ margin-top: 100px;*/
+ background-color: #353D4B; 
+
+ width: 50px;
+ height: 50px; 
+
 
 
 }
 
-.owl-theme .owl-nav{
+.galeria_clientes .owl-theme .owl-nav{
 
-    position: absolute;
+   position: absolute;
+   width: 100%
+   margin-top -100%;
+
 
 }
 
-.owl-theme .owl-nav .arrow{
+.galeria_clientes .owl-theme .owl-nav .arrow{
 
     text-align: center;
     vertical-align: middle;
@@ -761,7 +777,7 @@ textarea {
 
 }
 
-.owl-theme .owl-nav .arrow .arrow-circulo{
+.galeria_clientes .owl-theme .owl-nav .arrow .arrow-circulo{
 
    color: #FFF;
     background-color: #30579A;
@@ -773,14 +789,15 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 
+
 }
 
-.owl-theme .owl-nav .owl-next{
+.galeria_clientes .owl-theme .owl-nav .owl-next{
 
 
     float: right;
-    margin-right: -90px;
-    margin-bottom: 100px;
+    margin-right: -1250px;
+    /*margin-bottom: 100px;*/
     height: 70px;
     width: 70px;
     opacity: 1;
@@ -789,11 +806,11 @@ textarea {
     background: rgba(48,87,154,0.2);
     background-color: #E0F4FF;
     padding: 10px;
-    
+
 
 }
 
-.owl-theme .owl-nav .owl-prev{
+.galeria_clientes .owl-theme .owl-nav .owl-prev{
 
      float: left;
     margin-left: -90px;
@@ -809,5 +826,6 @@ textarea {
 
 
 }
+
 
 
