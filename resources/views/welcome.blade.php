@@ -338,11 +338,37 @@
 				                            						navText: [
 				                            						"<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>",
 				                            						"<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"
-				                            						]
+				                            						],
+				                            						responsive:{
+
+				                            							0:{
+
+				                            								items: 1
+				                            							},
+
+				                            							600:{
+
+				                            								items: 2
+
+				                            							},
+
+				                            							1000:{
+
+				                            								items: 4
+
+				                            							}
 
 
-				                            					});
+				                            						}
+
+
+
+
+				                            					})
+
+
 				                            				});
+				                            			
 
 				                            			</script>
 
@@ -368,13 +394,13 @@
 				                            				</script-->
 
 				                            				<div class="galeria_clientes">
-				                            				
 
-				                            					<div class="owl-galeria owl-carousel owl-theme">
 
-				                            						<!--div class="item"><img src="{{ URL::asset('img/dbz.jpg')}}"></div-->
+				                            					<div class="owl-carousel owl-theme">
 
-				                            						<div class="item"><h4>1</h4></div>
+				                            						<div class="item"><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+
+				                            						<!--div class="item"><h4>1</h4></div>
 				                            						<div class="item"><h4>2</h4></div>
 				                            						<div class="item"><h4>3</h4></div>
 				                            						<div class="item"><h4>4</h4></div>
@@ -385,11 +411,11 @@
 				                            						<div class="item"><h4>9</h4></div>
 				                            						<div class="item"><h4>10</h4></div>
 				                            						<div class="item"><h4>11</h4></div>
-				                            						<div class="item"><h4>12</h4></div>
-				                            						
+				                            						<div class="item"><h4>12</h4></div-->
+
+				                            						</div>
+
 				                            					</div>
-				                            					
-				                            				</div>
 
 				                            			<!--div class="carrossel_clientes">	                            			
 				                            				<div class="row">
