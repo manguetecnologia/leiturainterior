@@ -53,7 +53,7 @@
     @import url("owl.theme.default.min.css");
     @import url("owl.theme.green.min.css");
     @import url("slick.css");
-    @import url("slick.min.css");
+    @import url("slick-theme.css");
 
     /* RESET */
 
@@ -357,6 +357,22 @@
     padding-top: 200px;
 
 }
+
+.carrossel_sobre{
+
+    margin-left: 200px;
+
+
+
+
+
+}
+
+.slider-nav{
+
+
+}
+
 
 
 .sobre_texto {

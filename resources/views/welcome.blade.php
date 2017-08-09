@@ -8,6 +8,7 @@
 		<title>Leitura Interior</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Yanone+Kaffeesatz" rel="stylesheet">
 		<link href="{{ URL::asset('css/app.css')}}" rel="stylesheet">
+		<link href="{{ URL::asset('css/slick-theme.css')}}" rel="stylesheet">
 		<script type="text/javascript" src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
@@ -69,29 +70,75 @@
 					<div class="col-md-6">
 
 						<script type="text/javascript">
+							
+						</script>
 
-								$(document).ready(function(){
-									$('.carrossel_sobre').slick({
-										
-										/*prevArrow: "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>"
-										nextArrow: "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"*/
+						<script type="text/javascript">
+
+							$(document).ready(function(){
+								$('.carrossel_sobre').slick({
+
+
+									slidesToShow: 1,
+									slidesToScroll: 1,
+									arrows: true,
+									fade: true,
+									asNavFor: '.slider-nav'
+
 
 									});
+								
+								
+
+
+							});
+
+							$(document).ready(function(){
+
+								$('.slider-nav').slick({
+									slidesToShow: 6,
+									slidesToScroll: 1,
+									asNavFor: '.carrossel_sobre',
+									dots: true,
+									centerMode: true,
+									focusOnSelect: true
 								});
 
-							</script>
+							})
+
+						</script>
 
 
 						<div class="carrossel_sobre">
 
 
-							<div>your content</div>
-							<div>your content</div>
-							<div>your content</div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
 
 
 
 						</div>
+
+						<div class="slider-nav">
+
+
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+
+
+
+						</div>
+
 
 
 
