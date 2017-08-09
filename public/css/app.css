@@ -52,6 +52,8 @@
     @import url("owl.carousel.min.css");
     @import url("owl.theme.default.min.css");
     @import url("owl.theme.green.min.css");
+    @import url("slick.css");
+    @import url("slick.min.css");
 
     /* RESET */
 
@@ -294,6 +296,11 @@
 
 }
 
+.single-item{
+
+
+}
+
 .servicos_titulo_fundo{
 
     height: 85px;
@@ -397,7 +404,7 @@
 background-image{
 
     background-color: #30579A;
-    
+
 }
 
 .servicos_folder_up:hover {
@@ -930,6 +937,7 @@ opacity: 0.9;
   opacity: 0;
   transition: .5s ease;
   background-color: #30579A;
+  z-index: 5;
 }
 
 .text_banner_cliente {
@@ -944,4 +952,5 @@ opacity: 0.9;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 22px;
+  z-index: 5;
 }

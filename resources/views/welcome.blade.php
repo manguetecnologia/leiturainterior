@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
+		<script type="text/javascript" src="{{ URL::asset('js/slick.min.js') }}"></script>
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 		rel="stylesheet">
@@ -65,7 +66,36 @@
 
 						<p>Com atendimento especializado, a Leitura oferece suporte técnico e de pesquisa com vistas à obtenção de resultados que possam gerar novas oportunidades para os clientes. Tudo isso, por meio de uma metodologia inovadora que alia estratégias arrojadas e conhecimento do mercado. </p>
 					</div>
-					<div class="col-md-6">.col-md-6 carrossel lateral</div>
+					<div class="col-md-6">
+
+						<script type="text/javascript">
+
+								$(document).ready(function(){
+									$('.carrossel_sobre').slick({
+										
+										/*prevArrow: "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_back</i></div></div>"
+										nextArrow: "<div class='arrow'><div class='arrow-circulo'><i class='material-icons'>arrow_forward</i></div></div>"*/
+
+									});
+								});
+
+							</script>
+
+
+						<div class="carrossel_sobre">
+
+
+							<div>your content</div>
+							<div>your content</div>
+							<div>your content</div>
+
+
+
+						</div>
+
+
+
+					</div>
 				</div>
 			</div>
 
@@ -188,41 +218,42 @@
 								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
 								<div class="overlay">
 									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
 								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
 								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
 								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
 								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
 								</div>
-							</div>
-							<div class="item">
-								<img src="{{ URL::asset('img/dbzlogo.gif')}}">
-								<div class="overlay">
-									<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
+								</div>
+								<div class="item">
+									<img src="{{ URL::asset('img/dbzlogo.gif')}}">
+									<div class="overlay">
+										<a style="display: block;" href="https://www.youtube.com/watch?v=mSjn0bg2XLY"><div class="text_banner_cliente">Visitar</div></a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -230,69 +261,68 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="contato" id="contato">
-		<div class="container">
-			<div id="titulo_contato">
-				<h1 class="contato_titulo">Contato</h1>
-			</div>
-			<div class="contato_texto">
-				<h2>Seu Contato é muito importante para nós! <br>Nos envie sua dúvida, deixe sua crítica ou elogios</h2>
-			</div>
+		<div class="contato" id="contato">
+			<div class="container">
+				<div id="titulo_contato">
+					<h1 class="contato_titulo">Contato</h1>
+				</div>
+				<div class="contato_texto">
+					<h2>Seu Contato é muito importante para nós! <br>Nos envie sua dúvida, deixe sua crítica ou elogios</h2>
+				</div>
 
-			<div class="contato_atendimento">
-				<p>Atendimento: Segunda a sexta, das 09:00 às 18:00h.</p>
-			</div>
+				<div class="contato_atendimento">
+					<p>Atendimento: Segunda a sexta, das 09:00 às 18:00h.</p>
+				</div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="campo_de_preenchimento">
-						<form>
-							<label>
-								<input type="text" name="seunome" placeholder="Seu Nome"><br>
-							</label>
-							<label>
-								<input type="text" name="telefone" placeholder="Telefone"><br>
-							</label>
-							<label>
-								<input type="text" name="assunto" placeholder="Assunto"><br>
-							</label>
-							<label>
-								<textarea id="mensagem" placeholder="Mensagem"></textarea></label>
-								<label>
-									<button type="submit" class="button_contato">Enviar</button>
-								</label>
-							</form>
-						</div>
-
-					</div>
+				<div class="row">
 					<div class="col-md-6">
-						<style type="text/css">iframe{ margin-left: 100px; margin-top: 80px; }</style>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="550" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="campo_de_preenchimento">
+							<form>
+								<label>
+									<input type="text" name="seunome" placeholder="Seu Nome"><br>
+								</label>
+								<label>
+									<input type="text" name="telefone" placeholder="Telefone"><br>
+								</label>
+								<label>
+									<input type="text" name="assunto" placeholder="Assunto"><br>
+								</label>
+								<label>
+									<textarea id="mensagem" placeholder="Mensagem"></textarea></label>
+									<label>
+										<button type="submit" class="button_contato">Enviar</button>
+									</label>
+								</form>
+							</div>
 
+						</div>
+						<div class="col-md-6">
+							<style type="text/css">iframe{ margin-left: 100px; margin-top: 80px; }</style>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31597.684278653654!2d-34.91551263114035!3d-8.130923925396246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f0bc42e306d%3A0x2bf385bd7cec6239!2sPraia+de+Boa+Viagem!5e0!3m2!1spt-BR!2sbr!4v1501686981872" width="550" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-	</main>
+		</main>
 
-	<div class="rodape">
-		<div class="container">
+		<div class="rodape">
+			<div class="container">
 
-			<div class="row">
-				<div class="col-md-4">	<div class="texto_rodape_endereco"><p>Rua Luiz Barbalho, 149 | Boa Vista - Recife / PE | 50070-120 +55 (81) 3421.3732 | contato@leiturainterior.com.br</p></div></div>
-				<div class="col-md-4">	<div class="seta_rodape">
+				<div class="row">
+					<div class="col-md-4">	<div class="texto_rodape_endereco"><p>Rua Luiz Barbalho, 149 | Boa Vista - Recife / PE | 50070-120 +55 (81) 3421.3732 | contato@leiturainterior.com.br</p></div></div>
+					<div class="col-md-4">	<div class="seta_rodape">
 
-					<a href="#banner"><i class="material-icons">keyboard_arrow_up</i></a>
+						<a href="#banner"><i class="material-icons">keyboard_arrow_up</i></a>
 
-				</div></div>
-				<div class="col-md-4">	<div class="texto_rodape_desenvolvedora">Desenvolvido pela <b>Mangue Tecnologia</b></div></div>
+					</div></div>
+					<div class="col-md-4">	<div class="texto_rodape_desenvolvedora">Desenvolvido pela <b>Mangue Tecnologia</b></div></div>
+
+				</div>
 
 			</div>
-
 		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
