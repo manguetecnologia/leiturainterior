@@ -209,7 +209,8 @@
 
 .opcao_menu {
     color: rgba(135, 145, 161, 0.65);
-    font-family: "Yanone Kaffeesatz";
+   /* font-family: "Yanone Kaffeesatz"; */
+   font-family: Yanone;
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
@@ -393,14 +394,21 @@
     z-index: 5;
 }
 
+background-image{
+
+    background-color: #30579A;
+    
+}
+
 .servicos_folder_up:hover {
     height: 333px;
     width: 545px;
     border-radius: 5px;
+     background-image: url("../img/DeathNote.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
-
+   
 
 }
 
@@ -421,6 +429,7 @@
     height: 333px;
     width: 545px;
     border-radius: 5px;
+
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     margin-top: 50px;
@@ -431,9 +440,11 @@
     height: 333px;
     width: 545px;
     border-radius: 5px;
+     background-image: url("../img/DeathNote.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
+
 
 }
 
@@ -473,12 +484,12 @@
 }
 
 .servico_texto {
-    height: 105px;
-    width: 446px;
+    /*height: 105px;
+    width: 446px;*/
     color: #353D4B;
-    font-family: Raleway;
+    font-family: Raleway-ExtraLight;
     font-size: 18px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     line-height: 21px;
     text-align: center;
     padding-top: 80px;
