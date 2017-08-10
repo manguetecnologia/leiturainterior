@@ -15,6 +15,7 @@
 		<script type="text/javascript" src="{{ URL::asset('js/slick.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/jquery.themepunch.plugins.min.js') }}"></script>
 
+
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 		rel="stylesheet">
 
@@ -48,42 +49,6 @@
 			<div class="banner" id="banner" >
 				<div class="container">
 					<div class="col-md-6">
-							<div class="slide-show">
-								<div class="slideshow">
-									<ul>
-										<li class="slide2" data-transition="fade">
-											
-
-											<!--img src="img/dbzlogo.gif" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"-->
-
-
-										</li>
-
-										<li class="slide2" data-transition="fade">
-											
-											<!--img src="img/DeathNote.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"-->
-
-
-
-										</li>
-
-
-
-
-
-									</ul>
-
-
-
-
-
-								</div>
-
-
-							</div>
-
-
-					
 						<div class="titulo_banner">Qualidade e Satisfação</div>
 						<div class="texto_banner">Resultados que geram oportunidades para o seu produto</div>
 					</div>
@@ -149,36 +114,13 @@
 						<div class="carrossel_sobre">
 
 
-							<div>
-							    <div class="img-center">
-							        <img src="{{ URL::asset('img/dbzlogo.gif')}}">
-							    </div>
-							</div>
-							<div>
-							    <div class="img-center">
-							        <img src="http://somar.sistemagestaomangue.com.br/img/galeria/c58d5d69b96dcaaddba4578f668acacc1a6bd3ee332c6.jpg">
-							    </div>
-							</div>
-							<div>
-							    <div class="img-center">
-							        <img src="{{ URL::asset('img/dbzlogo.gif')}}">
-							    </div>
-							</div>
-							<div>
-							    <div class="img-center">
-							        <img src="{{ URL::asset('img/DeathNote.jpg')}}">
-							    </div>
-							</div>
-							<div>
-							    <div class="img-center">
-							        <img src="{{ URL::asset('img/dbzlogo.gif')}}">
-							    </div>
-							</div>
-							<div>
-							    <div class="img-center">
-							        <img src="{{ URL::asset('img/DeathNote.jpg')}}">
-							    </div>
-							</div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
 
 
 
@@ -187,26 +129,17 @@
 						<div class="slider-nav">
 
 
-							<div class="slider-min  item-nav"><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
-							<div class="slider-min item-nav"><img src="http://somar.sistemagestaomangue.com.br/img/galeria/c58d5d69b96dcaaddba4578f668acacc1a6bd3ee332c6.jpg"></div>
-							<div class="slider-min item-nav"><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
-							<div class="slider-min item-nav"><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
-							<div class="slider-min item-nav"><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
-							<div class="slider-min item-nav"><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
-							<div class="slider-min item-nav"><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
+							<div><img src="{{ URL::asset('img/DeathNote.jpg')}}"></div>
+							<div><img src="{{ URL::asset('img/dbzlogo.gif')}}"></div>
 
 
 
 						</div>
-
-
-						<style type="text/css">
-						    .sobre{
-						    	height: initial;
-						    	padding-bottom: 70px;
-						    }
-							
-						</style>
 
 
 

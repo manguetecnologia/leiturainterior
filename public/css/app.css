@@ -54,6 +54,7 @@
     @import url("owl.theme.green.min.css");
     @import url("slick.css");
     @import url("slick-theme.css");
+    @import url("theme-punch.css");
 
     /* RESET */
 
@@ -186,6 +187,15 @@
         z-index: 10;
         /*padding:*/
     }
+
+    .topo a:hover{
+
+        height: 44px;
+        width: 139px;
+        background-color: rgba(135,145,161,0.65);
+        text
+
+    }
     .logo {
         float: left;
         z-index: 10;
@@ -211,8 +221,8 @@
 
 .opcao_menu {
     color: rgba(135, 145, 161, 0.65);
-   /* font-family: "Yanone Kaffeesatz"; */
-   font-family: Yanone;
+    /* font-family: "Yanone Kaffeesatz"; */
+    font-family: Yanone;
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
@@ -258,11 +268,12 @@
     z-index: 2;
 }
 .sobre {
-    height: 868px;
+
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
     z-index: 3;
+    padding-bottom: 200px;
 }
 .sobre_titulo {
     /*height: 85px;
@@ -360,40 +371,87 @@
 
 .carrossel_sobre{
 
+    /*margin-left: 250px;*/
+
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+.carrossel_sobre .img-center {
+    display: table-cell;
+    height: 336px;
+    text-align: center;
+    vertical-align: middle;
+    width: 582px;
+    background: #e5e5e5;
+}
+
+.carrossel_sobre .img-center img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    max-height: 336px;
+}
+
+.slider-min {
+    display: inline-block;
+    height: 60px;
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.item-nav {
+    width: 63px;
+    height: 63px;
+}
+
+.item-nav img {
+    width: 100%;
+    height: 63px;
+    cursor: pointer;
+}
+
+/*.slider-nav{
+
+    width: 20%;
+    height: 20%;
     margin-left: 200px;
 
 
 
-
-
-}
-
-.slider-nav{
-
-
-}
+    } */
 
 
 
-.sobre_texto {
-    height: 384px;
-    width: 545px;
-    color: #353D4B;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 24px;
-    padding-top: 90px;
-    z-index: 2;
-}
-.servicos {
-    height: 925px;
-    width: 100%;
-    background-color: rgba(135, 145, 161, 0.2);
-    z-index: 2;
-}
+    .sobre_texto {
+        height: 384px;
+        width: 545px;
+        color: #353D4B;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        padding-top: 90px;
+        z-index: 2;
+    }
+    .servicos {
+        height: 925px;
+        width: 100%;
+        background-color: rgba(135, 145, 161, 0.2);
+        z-index: 2;
+    }
 
-.servicos_titulo{
+    .servicos_titulo{
 
     /*height: 85px;
     width: 318px;*/
@@ -427,11 +485,11 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-     background-image: url("../img/DeathNote.jpg");
+    background-image: url("../img/DeathNote.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
-   
+
 
 }
 
@@ -463,7 +521,7 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-     background-image: url("../img/DeathNote.jpg");
+    background-image: url("../img/DeathNote.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
@@ -868,7 +926,7 @@ textarea {
 
  /*padding-top: 100px; */ 
 
-opacity: 0.9;
+ opacity: 0.9;
 
 }
 
@@ -894,14 +952,14 @@ opacity: 0.9;
 .galeria_clientes .owl-theme .owl-nav .arrow .arrow-circulo{
 
    color: #FFF;
-    background-color: #30579A;
-    border-radius: 500px;
-    font-size: 28px;
-    opacity: 1;
-    width: 40px;
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
+   background-color: #30579A;
+   border-radius: 500px;
+   font-size: 28px;
+   opacity: 1;
+   width: 40px;
+   height: 40px;
+   margin-left: auto;
+   margin-right: auto;
 
 
 }
@@ -927,17 +985,17 @@ opacity: 0.9;
 
 .galeria_clientes .owl-theme .owl-nav .owl-prev{
 
-     float: left;
-    margin-left: -150px;
-    height: 70px;
-    width: 70px;
-    opacity: 1;
-    display: table;
-    border-radius: 500px;
-    background: rgba(48,87,154,0.2);
-    background-color: #E0F4FF;
-    padding: 10px;
-  
+ float: left;
+ margin-left: -150px;
+ height: 70px;
+ width: 70px;
+ opacity: 1;
+ display: table;
+ border-radius: 500px;
+ background: rgba(48,87,154,0.2);
+ background-color: #E0F4FF;
+ padding: 10px;
+
 
 
 }
