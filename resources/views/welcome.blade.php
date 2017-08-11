@@ -14,6 +14,7 @@
 		<script type="text/javascript" src="{{ URL::asset('js/slick.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/jquery.themepunch.plugins.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/jquery.mask.min.js') }}"></script>
+		<script type="text/javascript" src="{{ URL::asset('js/jquery.themepunch.revolution.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
