@@ -169,7 +169,7 @@
         width: 100%;
         background-color: #FFFFFF;
         box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
-        position: fixed;
+       /* position: fixed; */
         z-index: 3;
         /*max-width: 1450px;*/
         /*margin-top: 10px;*/
@@ -238,7 +238,7 @@
     background-color: rgba(135, 145, 161, 0.65);
 }
 .banner {
-    height: 676px;
+   /* height: 676px; */
     width: 100%;
     border: 1px solid #979797;
     background-color: #30579A;

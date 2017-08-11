@@ -48,8 +48,8 @@
 
 		<main>
 			<div class="banner" id="banner" >
-				<div class="container">
-					<div class="col-md-6">
+				
+					
 							<div class="slide-show">
 								<div class="slideshow">
 									<ul>
@@ -104,8 +104,8 @@
 					
 						<!--div class="titulo_banner">Qualidade e Satisfação</div>
 						<div class="texto_banner">Resultados que geram oportunidades para o seu produto</div-->
-					</div>
-				</div>
+					
+				
 			</div>
 
 			<div class="sobre" id="sobre">

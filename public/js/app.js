@@ -260,8 +260,8 @@ jQuery(function($){
 
     	$('.slideshow').revolution({
 			delay:5000,                                                
-			startheight:628,  
-			startwidth:1600,
+			startheight:676,  
+			startwidth:1440,
 			autoplay:true
 		}); 
 
