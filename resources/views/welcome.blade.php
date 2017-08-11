@@ -10,10 +10,11 @@
 		<link href="{{ URL::asset('css/app.css')}}" rel="stylesheet">
 		<link href="{{ URL::asset('css/slick-theme.css')}}" rel="stylesheet">
 		<script type="text/javascript" src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
-		<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/slick.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/jquery.themepunch.plugins.min.js') }}"></script>
+		<script type="text/javascript" src="{{ URL::asset('js/jquery.mask.min.js') }}"></script>
+		<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 		rel="stylesheet">
@@ -54,18 +55,34 @@
 										<li class="slide2" data-transition="fade">
 											
 
-											<!--img src="img/dbzlogo.gif" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"-->
+											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
 
 
 										</li>
 
 										<li class="slide2" data-transition="fade">
 											
-											<!--img src="img/DeathNote.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"-->
 
+											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
 
 
 										</li>
+
+										<li class="slide2" data-transition="fade">
+											
+
+											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
+
+
+										</li>
+
+
+
+
+						
 
 
 
@@ -84,8 +101,8 @@
 
 
 					
-						<div class="titulo_banner">Qualidade e Satisfação</div>
-						<div class="texto_banner">Resultados que geram oportunidades para o seu produto</div>
+						<!--div class="titulo_banner">Qualidade e Satisfação</div>
+						<div class="texto_banner">Resultados que geram oportunidades para o seu produto</div-->
 					</div>
 				</div>
 			</div>
@@ -136,7 +153,7 @@
 									slidesToShow: 6,
 									slidesToScroll: 1,
 									asNavFor: '.carrossel_sobre',
-									dots: true,
+									dots: false,
 									centerMode: true,
 									focusOnSelect: true
 								});
