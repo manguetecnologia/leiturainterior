@@ -342,8 +342,8 @@
     color: #30579A;
     font-family: Raleway-ExtraBold;
     position: absolute;
-    top: 1630px;
-    right: 1300px;
+    top: 1730px;
+    right: 1200px;
     width: 200px;
     height: 100px;
     font-size: 200px;
@@ -361,11 +361,11 @@
     color: #30579A;
     font-family: Raleway-ExtraBold;
     position: absolute;
-    top: 2560px;
+    top: 2630px;
     right: 1300px;
     width: 200px;
     height: 100px;
-    font-size: 200px;
+    font-size: 150px;
     /*-webkit-text-fill-color: transparent;*/
     opacity: 0.1;
     z-index: 1;
@@ -405,6 +405,12 @@
 
 
 
+
+}
+
+.campo_de_preenchimento label textarea{
+
+    padding-top: 20px;
 
 }
 
@@ -512,8 +518,8 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-    background-image: url("../img/blue.jpg");
-    background-color: #30579A;
+    /*background-image: url("../img/blue.jpg");*/
+    background-color: #30579A; 
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
 
@@ -548,7 +554,7 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-    background-image: url("../img/blue.jpg");
+    /*background-image: url("../img/blue.jpg");*/
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
@@ -829,6 +835,13 @@ background-image{
     outline: none;
     border: 0px;
 
+
+}
+
+.button_contato:hover{
+
+    opacity: 0.8;
+
 }
 
 textarea {
@@ -987,6 +1000,13 @@ textarea {
    height: 40px;
    margin-left: auto;
    margin-right: auto;
+
+
+}
+
+.galeria_clientes .owl-theme .owl-nav .arrow .arrow-circulo .material-icons{
+
+  line-height: 1.7;
 
 
 }

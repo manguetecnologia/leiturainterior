@@ -449,7 +449,7 @@
 					<div class="col-md-4">	<div class="texto_rodape_endereco"><p>Rua Luiz Barbalho, 149 | Boa Vista - Recife / PE | 50070-120 +55 (81) 3421.3732 | contato@leiturainterior.com.br</p></div></div>
 					<div class="col-md-4">	<div class="seta_rodape">
 
-						<a href="#banner"><i class="material-icons">keyboard_arrow_up</i></a>
+						<a href="#banner"><i class="material-icons" style="font-size: 40px;">keyboard_arrow_up</i></a>
 
 					</div></div>
 					<div class="col-md-4">	<div class="texto_rodape_desenvolvedora">Desenvolvido pela <b>Mangue Tecnologia</b></div></div>
