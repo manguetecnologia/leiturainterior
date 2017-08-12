@@ -57,7 +57,7 @@
 											
 
 											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container"><div class="titulo_banner">Qualidade e Satisfação</div><span><div class="texto_banner">Resultados que geram oportunidades para o seu produto</div></span></div></div>
 
 
 										</li>
@@ -66,8 +66,7 @@
 											
 
 											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
-
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container"><div class="titulo_banner">Oh My God</div><span><div class="texto_banner">They Killed Kenny</div></span></div></div>
 
 										</li>
 
@@ -75,7 +74,7 @@
 											
 
 											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">Qualidade e Satisfação<span>Resultados que geram oportunidades para o seu produto</span></div></div>
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">You Bastards<span>- Cartman, Eric</span></div></div>
 
 
 										</li>
