@@ -176,7 +176,17 @@
 
     }
     .topo a {
-        height: 21px;
+        
+        height: 200px;
+        width: 200px;
+    	color: rgba(135, 145, 161, 0.65);
+
+        /*padding:*/
+    }
+
+    .topo_texto{
+
+    	height: 21px;
         width: 139px;
         color: rgba(135, 145, 161, 0.65);
         font-family: "Yanone Kaffeesatz";
@@ -185,7 +195,13 @@
         line-height: 22px;
         text-align: center;
         z-index: 10;
-        /*padding:*/
+
+    }
+
+    .topo_texto:hover{
+
+    	color: white;
+
     }
 
     .topo a:hover{
@@ -345,7 +361,7 @@
     color: #30579A;
     font-family: Raleway-ExtraBold;
     position: absolute;
-    top: 2530px;
+    top: 2560px;
     right: 1300px;
     width: 200px;
     height: 100px;
@@ -367,7 +383,8 @@
    font-weight: 800;
    letter-spacing: 2px;
    line-height: 85px;
-   padding-top: 110px;
+   padding-top: 90px;
+   padding-left: 80px;
 }
 
 .carrossel_clientes{
@@ -411,7 +428,7 @@
 .slider-min {
     display: inline-block;
     height: 60px;
-    margin: 0 10px;
+    margin: 0 5px;
     text-align: center;
     color: white;
     font-size: 2em;
@@ -429,15 +446,16 @@
     cursor: pointer;
 }
 
-/*.slider-nav{
+.slider-nav{
 
-    width: 20%;
+    /*width: 20%;
     height: 20%;
-    margin-left: 200px;
+    margin-left: 200px;*/
 
 
 
-    } */
+
+    } 
 
 
 
@@ -469,7 +487,8 @@
     /*font-weight: 800;*/
     letter-spacing: 2px;
     line-height: 85px;
-    margin-top: 130px
+    margin-top: 100px;
+    margin-left: 50px;
 
 
 }
@@ -493,7 +512,7 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-    background-image: url("../img/DeathNote.jpg");
+    background-image: url("../img/blue.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;
@@ -529,7 +548,7 @@ background-image{
     height: 333px;
     width: 545px;
     border-radius: 5px;
-    background-image: url("../img/DeathNote.jpg");
+    background-image: url("../img/blue.jpg");
     background-color: #30579A;
     box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
     z-index: 5;

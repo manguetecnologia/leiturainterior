@@ -34,10 +34,10 @@
 					<div class="opcao_menu">
 						<nav style="margin-top: 10px;">
 							<ul>
-								<li><a href="#banner">Início</a></li>
-								<li><a href="#sobre">Sobre</a></li>
-								<li><a href="#servicos">Serviços</a></li>
-								<li><a href="#contato">Contato</a></li>
+								<li><a href="#banner" class="topo_texto">Início</a></li>
+								<li><a href="#sobre" class="topo_texto">Sobre</a></li>
+								<li><a href="#servicos" class="topo_texto">Serviços</a></li>
+								<li><a href="#contato" class="topo_texto">Contato</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -74,7 +74,8 @@
 											
 
 											<img src="img/cutecat.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container">You Bastards<span>- Cartman, Eric</span></div></div>
+											<div class="caption mangue-caption fade" data-x="600" data-y="400" data-speed="300" data-start="200" data-easing="easingOutExpo"><div class="container"><div class="titulo_banner">You bastards</div><span><div class="texto_banner">- Cartman, Eric</div></span></div></div>
+
 
 
 										</li>
